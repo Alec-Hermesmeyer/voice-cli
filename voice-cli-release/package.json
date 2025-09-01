@@ -1,0 +1,49 @@
+{
+  "name": "voice-cli",
+  "version": "1.0.0",
+  "description": "Control your computer with voice commands - A simple CLI tool for voice-to-system-action",
+  "main": "voice-cli.js",
+  "bin": {
+    "voice-cli": "./voice-cli.js",
+    "voice": "./voice-cli.js"
+  },
+  "scripts": {
+    "start": "node voice-cli.js",
+    "test": "node test-voice-cli.js",
+    "install-global": "npm install -g .",
+    "demo": "node voice-cli.js \"open browser\""
+  },
+  "keywords": [
+    "voice",
+    "cli",
+    "commands",
+    "automation",
+    "system-control",
+    "voice-commands",
+    "accessibility"
+  ],
+  "author": "Voice Backend Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourcompany/voice-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourcompany/voice-cli/issues"
+  },
+  "homepage": "https://github.com/yourcompany/voice-cli#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "win32",
+    "linux"
+  ],
+  "preferGlobal": true,
+  "files": [
+    "voice-cli.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
