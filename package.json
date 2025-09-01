@@ -1,7 +1,7 @@
 {
   "name": "voice-cli",
-  "version": "1.0.0",
-  "description": "Control your computer with voice commands - A simple CLI tool for voice-to-system-action",
+  "version": "1.0.1",
+  "description": "Control your computer with voice commands - A CLI tool with AI voice responses via ElevenLabs",
   "main": "voice-cli.js",
   "bin": {
     "voice-cli": "./voice-cli.js",
@@ -26,12 +26,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourcompany/voice-cli.git"
+    "url": "https://github.com/Alec-Hermesmeyer/voice-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/yourcompany/voice-cli/issues"
+    "url": "https://github.com/Alec-Hermesmeyer/voice-cli/issues"
   },
-  "homepage": "https://github.com/yourcompany/voice-cli#readme",
+  "homepage": "https://github.com/Alec-Hermesmeyer/voice-cli#readme",
   "engines": {
     "node": ">=14.0.0"
   },
